@@ -54,7 +54,7 @@
             </p>
             <div class="profile-body">
               <p>
-                石崎智也です。知能情報コースで、高専2年生やってます。
+                石崎です。知能情報コースで、高専2年生やってます。
               </p>
               <p>
                 趣味は、読書、YouTube鑑賞とゲーム。
@@ -91,11 +91,83 @@
               <p class="works-info">高専を舞台にしたゲームです。現在トレーラーが公開されています。</p>
               <p class="works-info">高専祭で出展する予定だったのですが、間に合わず、今現在も制作中です。</p>
             </a>
+            <a class="works-item" href="http://127.0.0.1:5500/index.html">
+                <div class="works-img"><img src="迷路.png" alt="" /></div>
+                <p class="works-name">トレジャーハントゲーム</p>
+                <p class="works-info">pygameで作成した自動生成のダンジョンで、目標金額を集めるゲームです。</p>
+                <p class="works-info">2年生の12月～1月に作成しました。</p>
+                <p class="works-info">下のMy Gamesで詳しく紹介しています。</p>
+              </a>
             
           </div>
         </div>
       </section>
       <!-- /works -->
+
+      <!-- 自作ゲーム紹介セクション -->
+      <section class="game-showcase section" id="games">
+          <div class="container">
+            <h2 class="title">My Games</h2>
+            <div class="game-container">
+              <!-- ゲーム1 -->
+              <div class="game-item">
+                <h3>トレジャーハントゲーム</h3>
+                <img src="迷路.png" alt="Game 1" class="game-image">
+                <p>宝物を集め、30000G集めたらクリア!</p>
+                <br><br>
+
+                <h3>操作説明</h3>
+                <p>W/A/S/D: 移動</p>
+                <p>F: 休憩所へ移動 / 休憩所から戻る</p>
+                <p>B: 袋の中身を表示</p>
+                <p>V: 所持金の表示</p>
+                <p>R: アイテムの売却(休憩所でのみ)</p>
+                <p>G: アイテムの購入(休憩所でのみ)</p>
+                <br><br>
+
+                <h3>タイル</h3>
+                <p>黒のレンガ: 移動可能なタイル</p>
+                <p>溶岩　　　: 移動不可能なタイル</p>
+                <p>鏡　　　　: 休憩所に移動</p>
+                <p>階段　　　: 形を変えたダンジョンに移動</p>
+                <br><br>
+
+                <h3>宝箱</h3>
+                <p>赤の宝箱　: 鍵がなくても開けられる</p>
+                <p>銀の宝箱　: 開けるには「シルバーチェストの鍵」が必要</p>
+                <p>黄金の宝箱: 開けるには「ゴールドチェストの鍵」が必要</p>
+                <br><br>
+
+                <h3>フィールド</h3>
+                <p>2種類のフィールド</p>
+                <p>
+                    <p>・ダンジョン</p>
+                    <img class="small-img" src="フィールド_迷路.png" alt="小さい画像">
+                    階段のタイルを踏むと形の変わるダンジョン。アイテムの入手、迷路の移動が出来ます。
+                </p>
+                <p>
+                    <p>・休憩所</p>
+                    <img class="small-img" src="休憩所.png" alt="小さい画像">
+                    ここでだけアイテムの売却、購入が出来ます。
+                </p>
+                <br><br>
+
+                <h3>売却・購入</h3>
+                <p>休憩所でのみ売却・購入が可能</p>
+                <img class="small-img" src="購入買取.png" alt="小さい画像">
+                <br><br>
+                <h3>クリア画面</h3>
+                <p>クリアタイムと所持金を表示</p>
+                <img class="small-img" src="クリア画面.png" alt="小さい画像">
+                <br><br>
+                <br><br>
+
+                <a href="https://github.com/tomo0778/game01" class="game-link" target="_blank">GitHubURL</a>
+              </div>
+            </div>
+          </div>
+        </section>
+
 
       <!-- skills -->
       <section class="skill section" id="skill">
@@ -162,7 +234,7 @@
               <div class="skill-body">
                 <h3 class="skill-name">Tinkercad</h3>
                 <p class="skill-text">
-                  </p>
+                  。</p>
               </div>
             </div>
             <div class="skill-item">
@@ -206,8 +278,6 @@
   <script type='text/javascript' src="js/script.js"></script>
 </body>
 </html>
-
-  </div>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
   <script type='text/javascript' src="js/script.js"></script>
 </body>
