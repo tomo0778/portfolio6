@@ -527,3 +527,20 @@ body {
       margin-bottom: 20px;
     }
   }
+  
+/* === 折りたたみ表示のスタイル === */
+
+.content {
+  display: none;
+  padding: 10px;
+  border: 1px solid #ccc;
+  margin-top: 5px;
+}
+
+/* 矢印ボタンのスタイル */
+.toggle-btn {
+  cursor: pointer;
+  font-size: 18px;
+  user-select: none;
+  margin-left: 5px;
+}
